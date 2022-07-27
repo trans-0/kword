@@ -16,11 +16,11 @@ class KeywordMod(loader.Module):
         "kw_404": '🚫 <b>Keyword "{}" not found</b>',
         "kw_added": "✅ <b>New keyword:\nTrigger: {}\nMessage: {}\n{}{}{}{}{}</b>",
         "kw_removed": '✅ <b>Keyword "{}" removed</b>',
-        "kwbl_list": "🦊 <b>Blacklisted chats:</b>\n{}",
+        "kwbl_list": " <b>Blacklisted chats:</b>\n{}",
         "bl_added": "✅ <b>This chat is now blacklisted for Keywords</b>",
         "bl_removed": "✅ <b>This chat is now whitelisted for Keywords</b>",
-        "sent": "🦊 <b>[Keywords]: Sent message to {}, triggered by {}:\n{}</b>",
-        "kwords": "🦊 <b>Current keywords:\n</b>{}",
+        "sent": " <b>[Keywords]: Sent message to {}, triggered by {}:\n{}</b>",
+        "kwords": " <b>Current keywords:\n</b>{}",
         "no_command": (
             "🚫 <b>Execution of command forbidden, because message contains reply</b>"
         ),
@@ -31,11 +31,11 @@ class KeywordMod(loader.Module):
         "kw_404": '🚫 <b>Кейворд "{}" не найден</b>',
         "kw_added": "✅ <b>Новый кейворд:\nТриггер: {}\nСообщение: {}\n{}{}{}{}{}</b>",
         "kw_removed": '✅ <b>Кейворд "{}" удален</b>',
-        "kwbl_list": "🦊 <b>Чаты в черном списке:</b>\n{}",
+        "kwbl_list": " <b>Чаты в черном списке:</b>\n{}",
         "bl_added": "✅ <b>Этот чат теперь в черном списке Кейвордов</b>",
         "bl_removed": "✅ <b>Этот чат больше не в черном списке Кейвордов</b>",
-        "sent": "🦊 <b>[Кейворды]: Отправлено сообщение в {}, активировано {}:\n{}</b>",
-        "kwords": "🦊 <b>Текущие кейворды:\n</b>{}",
+        "sent": " <b>[Кейворды]: Отправлено сообщение в {}, активировано {}:\n{}</b>",
+        "kwords": " <b>Текущие кейворды:\n</b>{}",
         "no_command": (
             "🚫 <b>Команда не была выполнена, так как сообщение содержит реплай</b>"
         ),
